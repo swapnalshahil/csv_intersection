@@ -5,7 +5,7 @@ with open("README.md", "r") as desc:
 
 setuptools.setup(
     name="csv_intersection",
-    version="0.0.1",
+    version="1.0.0",
     author="Swapnal Shahil",
     author_email="swapnalsahil@gmail.com",
     description="CSV intersection",
@@ -20,7 +20,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=['csv', 'python-csv'],
+    install_requires=['python-csv'],
     python_requires='>=3.6',
     project_urls={
         'Bug Reports': 'https://github.com/swapnalshahil/csv_intersection/issues',
