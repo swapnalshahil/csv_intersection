@@ -5,7 +5,7 @@ with open("README.md", "r") as desc:
 
 setuptools.setup(
     name="csv_intersection",
-    version="1.0.0",
+    version="1.0.2",
     author="Swapnal Shahil",
     author_email="swapnalsahil@gmail.com",
     description="CSV intersection",
