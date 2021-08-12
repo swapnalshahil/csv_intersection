@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/swapnalshahil/csv_intersection",
-    keywords="csv intersection csv_intersection tsv tsv_intersection common",
+    keywords= ["csv", "intersection", "csv_intersection", "tsv", "tsv_intersection", "common data" ,"data visualization"],
     packages=setuptools.find_packages(),
     license="MIT",
     classifiers=[
