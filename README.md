@@ -16,7 +16,7 @@ Default delimiter is `","` and default encoding is `"UTF-8"`
 * [Setup](#setup)
 * [Usage](#usage)
 * [Dependencies](#dependencies)
-* [Contact](#contact)
+* [Contacts](#contacts)
 
 ## Setup
 
@@ -29,6 +29,13 @@ import csv
 from csv_intersection import csv_intersection
 
 common_rows = csv_intersection(tsv1, tsv2)
+
+# if delimiter is other than ","
+common_rows = csv_intersection(tsv1,tsv2,delimiter = delimiter_of_file)
+
+# if encoding is different other than UTF-8
+common_rows = csv_intersection(tsv1, tsv2, encoding = encoding_of_file)
+
 ```
 
 ## Dependencies
