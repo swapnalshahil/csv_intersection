@@ -20,7 +20,7 @@ Default delimiter is `","` and default encoding is `"UTF-8"`
 
 ## Setup
 
-```pip install csv_intersection```
+```pip install csv-intersection```
 
 ## Usage
 
