@@ -25,7 +25,6 @@ Default delimiter is `","` and default encoding is `"UTF-8"`
 ## Usage
 
 ```
-import csv
 from csv_intersection import csv_intersection
 
 common_rows = csv_intersection(tsv1, tsv2)
