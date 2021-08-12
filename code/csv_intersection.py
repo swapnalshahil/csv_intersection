@@ -1,7 +1,7 @@
 import csv
 
 
-def csv_intersection(path_one, path_two, delimiter='\t', encoding="UTF-8"):
+def csv_intersection(path_one, path_two, delimiter=',', encoding="UTF-8"):
     one = []
     two = []
     result = []
